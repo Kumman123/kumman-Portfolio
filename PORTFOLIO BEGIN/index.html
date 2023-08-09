@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Portfolio Website</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css'>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--matrix-->
+    <canvas id="c"></canvas>
+    <script src="assets/script.js"></script>
+    <!--matrix-->
+    <!-- Navbar Start -->
+    <header class="p-4">
+      <nav class="navbar navbar-expand-lg container fixed-top">
+        <div class="container-fluid" id="Navbar">
+          <a class="navbar-brand" href="#Profile">Profile</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#About"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Experience">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Education">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Skill">Skill</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Portfolio">Portfolio</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Navbar End -->
+
+    <!-- Profile -->
+    <section id="Profile" class="container mt-5">
+      <div>
+        <div class="section-title p-4">
+          <h1>Profile</h1>
+          <hr />
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <img
+              src="kumman.jpg"
+              class="img-fluid p-3 mb-5"
+              alt="Profile"
+            />
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3>Final Year Student</h3>
+            <p class="fst-italic">IIIT KOTA</p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li>
+                    <i class="bi bi-chevron-right"></i> <strong>Name:</strong>
+                    <span>Kummandas Meena</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i> <strong>City:</strong>
+                    <span>India - jaipur</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i> <strong>Phone:</strong>
+                    <span>+91 9982882578</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Date Of Birth:</strong>
+                    <span>1 March 2004</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li>
+                    <i class="bi bi-chevron-right"></i> <strong>Age:</strong>
+                    <span>19</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Degree:</strong> <span>Under Graduate</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i> <strong>Email:</strong>
+                    <span>mkummandas@gmail.com</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Freelance:</strong>
+                    <span style="color: green">Available</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!--                Section Skills -->
+            <span class="skill">
+              <!--                    GitHub-->
+              <a href="https://github.com/Kumman123" target="_blank"
+                ><button
+                  type="button"
+                  class="btn btn-dark col-md-4 col-sm-12 col-lg-3"
+                >
+                  <i class="fab fa-github" aria-hidden="true"></i> Github
+                </button></a
+              >
+              <!--                    Linkedin-->
+              <a href="https://www.linkedin.com/in/kummandas-meena-51897820b/" target="_blank"
+                ><button
+                  type="button"
+                  class="btn btn-primary col-md-4 col-sm-12 col-lg-3"
+                >
+                  <i class="fab fa-telegram" aria-hidden="true"></i> linkedin
+                </button></a
+              >
+              <!--                    Instagram-->
+              <a href="https://www.instagram.com/kingkumman/" target="_blank"
+                ><button
+                  type="button"
+                  class="btn btn-info col-md-3 col-sm-12 col-lg-3"
+                >
+                  <i class="fab fa-twitter" aria-hidden="true"></i> instagram
+                </button></a
+              >
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Profile End-->
+
+    <!-- About Section -->
+    <section id="About" class="section-box container mt-4">
+      <div>
+        <div class="section-title p-4">
+          <h1>About</h1>
+          <hr />
+          <p class="p-3">
+            Hi I'm Kummandas , ALways Trying To Learn New Things & New Program
+            Languages  ...
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About SEction End -->
+
+    <!-- Experience Section -->
+    <section id="Experience" class="section-box container mt-4">
+      <div>
+        <div class="section-title p-4">
+          <h1>Experience</h1>
+          <hr />
+          <p class="p-3">
+            For Now i am Learning New Things And learning team work - I Create
+            some Personal Projects And Team Projects - Creating Shops ,
+             Portfolio Pages - Doing Some College projects
+             I am currently doing Data strucutre and algorithms practice on diffrent platforms to increse my problem solving skill
+            <br />
+            If You Want To See My DSA performanmce In various coding platforms
+            <a
+              href="https://leetcode.com/KUMMANDAS/"
+              target="_blank"
+              style="color: black"
+              >Leetcode</a
+            >
+            Account .
+            <a
+              href="https://auth.geeksforgeeks.org/user/2020kucp1056"
+              target="_blank"
+              style="color: black"
+              >GeeksforGeeks</a
+            >
+            Account .
+            
+            <a
+              href="https://www.codingninjas.com/studio/profile/KUMMANDAS"
+              target="_blank"
+              style="color: black"
+              >codestudios</a
+            >
+            Account .
+            If You Want To See My Projects In GitHub Check Out My
+            <a
+              href="https://github.com/Kumman123"
+              target="_blank"
+              style="color: black"
+              >github</a
+            >
+            Account .
+            
+
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Experience SEction End -->
+
+    <!-- Education Section -->
+    <section id="Education" class="section-box container mt-4">
+      <div>
+        <div class="section-title p-4">
+          <h1>Education</h1>
+          <hr />
+          <p class="p-3">
+            <span>2018 :</span> Secondary education(10th) in 2018 From Adarsh vidyha mandir chhabra,  Baran(Rajsthan)
+               with 86% percentage  .
+          </p>
+          <br />
+          <p class="p-3">
+            <span>2020 :</span> Higher secondary education(12th) in 2020 From Ramkrishna Acedemy , Kota
+            with 89.20% percentage
+          </p>
+          <br />
+          <p class="p-3">
+            <span>2020-2024 :</span> This is  new start in My life 
+            <p>I am currently persuing Bachlor of Technology Degree in CSE (Computer science ans Engineering) Branch From Indian institute of information technology Kota</p>
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Education SEction End -->
+
+    <!-- Skill Section -->
+    <section id="Skill" class="section-box container mt-4">
+      <div>
+        <div class="section-title p-4">
+          <h1>Skills</h1>
+          <hr />
+
+          <div class="row">
+            <div class="col-12">
+              <h3 style="text-align: center">
+                Languages Libraries & FrameWorks ...
+              </h3>
+            </div>
+            <div class="col-6">
+              <div class="progress">
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  aria-label="Success example"
+                  style="width: 99%"
+                  aria-valuenow="100"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <span>C/C++</span> <i class="val"> 99%</i>
+              <div class="progress mt-2">
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  aria-label="Info example"
+                  style="width: 99%"
+                  aria-valuenow="99"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <span>HTML</span> <i class="val"> 99%</i>
+              <div class="progress mt-2">
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  aria-label="Warning example"
+                  style="width: 80%"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <span>CSS</span> <i class="val"> 80%</i>
+              <div class="progress mt-2">
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  aria-label="Danger example"
+                  style="width: 85%"
+                  aria-valuenow="85"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <span>JavaScript</span> <i class="val"> 85%</i>
+              <div class="progress mt-2">
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  aria-label="Danger example"
+                  style="width: 79%"
+                  aria-valuenow="79"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <span>Python</span> <i class="val"> 80%</i>
+            </div>
+            <!--                part 2 col-->
+            <div class="col-6">
+              <div class="progress">
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  aria-label="Success example"
+                  style="width: 90%"
+                  aria-valuenow="90"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <span>Data Structure Algorithm</span> <i class="val"> 90%</i>
+              <div class="progress mt-2">
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  aria-label="Info example"
+                  style="width: 70%"
+                  aria-valuenow="70"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <span>SQL</span> <i class="val"> 90%</i>
+              <div class="progress mt-2">
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  aria-label="Warning example"
+                  style="width: 92%"
+                  aria-valuenow="92"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <span>DBMS , OS , CN , OOPS</span> <i class="val"> 90%</i>
+              <div class="progress mt-2">
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  aria-label="Danger example"
+                  style="width: 80%"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <span>React</span> <i class="val"> 50%</i>
+              <div class="progress mt-2">
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  aria-label="Danger example"
+                  style="width: 82%"
+                  aria-valuenow="82"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <span>Machine Learning </span> <i class="val"> 82%</i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skill SEction End -->
+
+    <!-- Project Section -->
+    <section id="Portfolio" class="section-box container mt-4">
+      <div>
+        <div class="section-title p-4">
+          <h1>Portfolio</h1>
+          <hr />
+
+          <h1 style="text-align: center; color: white">
+            My <span>TimeLine</span>
+          </h1>
+          <div class="Pcontainer">
+            <div class="timeline-block timeline-block-left">
+              <div class="marker"></div>
+              <div class="timeline-content">
+                <h3>2020-2021</h3>
+                <span>BTECH journey begins</span>
+                <p>his years i just started College & Learnt C/C++ , BASIC DSA </p>
+              </div>
+            </div>
+
+            
+
+            <div class="timeline-block timeline-block-right">
+              <div class="marker"></div>
+              <div class="timeline-content">
+                <h3>2021</h3>
+                <span>HTML/CSS/JAVASCRIPT/SQL/MYSQL/PYTHON</span>
+                <p>
+                  2021-2022 this years i just started school & Learnt Basics of HTML/CSS/JAVASCRIPT/PYTHON  And start making Projects ;
+                 <b>Hotel Manegement System</b> - using HTML CSS and basic javascript with help of MYSQL
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-block timeline-block-left">
+              <div class="marker"></div>
+              <div class="timeline-content">
+                <h3>2022</h3>
+                <span>Internship</span>
+                <p>
+                 <b>Artificial Intelligence(june) </b>
+                 Learn basic Machine Learning , Deep Learning and Python Libraries(numpy , pandas)
+                 <b>Projects</b><br>
+                 Breast cancer prediction <br> 
+                 HandWritten Digit Detaction
+
+                
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-block timeline-block-right">
+              <div class="marker"></div>
+              <div class="timeline-content">
+                <h3>2022</h3>
+                <p>Started DSA(C++) / CN / OS / OOPS </p>
+                <span>Projects</span>
+                <p>
+                 <b>Portfolio Website</b> <br>
+                 (HTML/CSS/JS)
+                <br>
+                 <b>Amazon clone</b> <br>
+                 (HTML/CSS/js)
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-block timeline-block-left">
+              <div class="marker"></div>
+              <div class="timeline-content">
+                <h3>2023</h3>
+                <span>EEG SIGNAL based Robotic arm grashp and lift movement PROJECT</span>
+                <p>
+                  Team project based on Python ,  Ml/DL/DRL techniques , feature extraction(Wavelet)
+                  and classification(CNN/LSTM/DRL)
+
+                  Evaluated the performance of the system in terms of
+accuracy, speed, and usability of diffrent techniques
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-block timeline-block-right">
+              <div class="marker"></div>
+              <div class="timeline-content">
+                <h3>2023</h3>
+                <span>MULTICLASS IMAGE CLASSIFICATION (ML/DL)</span>
+                <p>
+                  Mutliclass image classification by using AlexNet ,VGGnet ,Resnet
+convolutional neural networks.
+
+                  Evaluated the performance of the system in terms of
+accuracy, loss, and usability of diffrent techniques(AlexNet ,VGGnet, Googlenet ,Resnet)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Project SEction End -->
+
+    <!--Btn To Top-->
+    <section>
+      <div class="text-center mt-5">
+        <button
+          class="mb-5"
+          onclick="topFunction()"
+          id="myBtn"
+          title="Go to top"
+        >
+          Go To Top
+        </button>
+      </div>
+      <script>
+        // Get the button
+        let mybutton = document.getElementById('myBtn');
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+          scrollFunction();
+        };
+
+        function scrollFunction() {
+          if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+          ) {
+            mybutton.style.margin = 'auto';
+          }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+      </script>
+    </section>
+    <!--Btn to Top End-->
+
+    <!-- Footer-->
+    <footer id="footer" class="container">
+      <div class="container">
+        <h3>Contact Me</h3>
+        <div class="social-links">
+          <a href="mailto:ydehfuli@gmail.com" target="_blank" class="gmail"
+            ><i class="fab fa-google"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/kummandas-meena-51897820b/"
+            target="_blank"
+            class="Linkdin"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/kingkumman/"
+            target="_blank"
+            class="telegram"
+            ><i class="fab fa-telegram"></i
+          ></a>
+          <a
+            href="https://www.Twitter.com/kummandasMeena"
+            target="_blank"
+            class="twitter"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            href="https://github.com/Kumman123"
+            target="_blank"
+            class="linkedin"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+        <div class="copyright">
+          2022 &copy; Portfolio <strong><span>Nisay</span></strong
+          >. All Rights Reserved
+        </div>
+        <div class="credits">
+          Designed by
+          <a href="https://github.com/YasinDehfuli" target="_blank">Nisay</a>
+        </div>
+      </div>
+    </footer>
+    <!--Footer And-->
+    <script src="script.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/fontawesome-iconpicker/3.2.0/js/fontawesome-iconpicker.min.js'></script>
+  </body>
+  <!-- https://Github.com/YasinDehfuli -->
+</html>
